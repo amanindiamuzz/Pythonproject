@@ -36,7 +36,7 @@ Well, If you are looking for someone like that, then "Moody_Tales" is going to h
 
 <h3>How to use this project </h3>
 <hr>
-Forl this project and then dowload in you local system. After dowloading you can dirctly run Moody_tales.py file using Python and job done 😃
+Fork this project and then dowload in you local system. After dowloading you can dirctly run Moody_tales.py file using Python and job done 😃
 
 
 
