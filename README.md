@@ -18,7 +18,7 @@ Well, If you are looking for someone like that, then "Moody_Tales" is going to h
 <ul>
 <li>Language: Python</li>
 <li>Libraries: Tkinter</li>
-<li>API: Google Text to Speech API (gTTS API)Tkinter</li>
+<li>API: Google Text to Speech API (gTTS API)</li>
 
 </ul>
 
