@@ -1,5 +1,10 @@
 #Here we are importing the  liabrary for the functions
 import random #Random for creating random words
+from playsound import playsound
+import os
+
+
+
 
 name = random.choice(["Gabriel", "Thor", "Jasper", "Raketh", "Tebbius", "David"])
 mood = random.choice(["bright", "dark", "evil"])
@@ -191,7 +196,33 @@ checkbtn.grid(row=3,column=0)
 
 def autoyes():
     print('You choosen yes to auto, So here is a story suggested by machine: ')
-    print("In the",theme,"setting of",setting,", there was a", protagonist, "who",conflict,antagonist,".",end)
+    Save="In the"+theme+"setting of"+setting+", there was a"+ protagonist+ "who"+conflict+antagonist+"."
+   
+    from gtts import gTTS
+
+# This module is imported so that we can
+# play the converted audio
+    import os
+
+# The text that you want to convert to audio
+    
+# Language in which you want to convert
+    language = 'en'
+
+# Passing the text and language to the engine,
+# here we have marked slow=False. Which tells
+# the module that the converted audio should
+# have a high speed
+    myobj = gTTS(text=Save, lang=language, slow=False)
+
+# Saving the converted audio in a mp3 file named
+# welcome
+    myobj.save("welcome.mp3")
+
+# Playing the converted file
+    file = "welcome.mp3"
+    playsound(file)
+
 
 user_mood=ur_mood_var.get()
 user_theme=ur_theme_var.get()
