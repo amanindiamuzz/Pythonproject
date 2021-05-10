@@ -30,7 +30,8 @@ Well, If you are looking for someone like that, then "Moody_Tales" is going to h
 <li><code>pip install tk
 </code>     Installing Tkinter for Graphical user interface
 </li>
-<li> <code>pip install gTTS</code>    Installing google text to speech API</li></ul>
+<li> <code>pip install gTTS</code>    Installing google text to speech API</li>
+  <li> <code>pip install playsound</code>    Installing playsound for playing the audio</li></ul>
 </ul>
 
 
